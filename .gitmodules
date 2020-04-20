@@ -1,0 +1,3 @@
+[submodule "src/s2n"]
+	path = src/s2n
+	url = git@github.com:awslabs/s2n.git
