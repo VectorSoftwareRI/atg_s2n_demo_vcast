@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manage-config-options version="7">
+  <config>
+    <key>WHITEBOX</key>
+    <value>YES</value>
+    <key>COVERAGE_TYPE</key>
+    <value>STATEMENT+BRANCH</value>
+  </config>
+<search-directory type="TESTABLE_SOURCE_DIR">$(S2N_VC_SRC_PATH)/s2n/crypto</search-directory>
+<search-directory type="TESTABLE_SOURCE_DIR">$(S2N_VC_SRC_PATH)/s2n</search-directory>
+<search-directory type="TESTABLE_SOURCE_DIR">$(S2N_VC_SRC_PATH)/s2n/libcrypto-root/include</search-directory>
+<search-directory type="TESTABLE_SOURCE_DIR">$(S2N_VC_SRC_PATH)/s2n/api</search-directory>
+<search-directory type="TESTABLE_SOURCE_DIR">$(S2N_VC_SRC_PATH)/s2n</search-directory>
+<search-directory type="TESTABLE_SOURCE_DIR">/usr/include/openssl</search-directory>
+</manage-config-options>
