@@ -56,8 +56,6 @@ def get_configuration(options):
         "manage_vcm_path": manage_vcm_path,
     }
 
-    print(configuration)
-
     return configuration
 
 
