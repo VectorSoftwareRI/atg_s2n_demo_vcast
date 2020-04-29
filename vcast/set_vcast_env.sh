@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export S2N_VC_SRC_PATH=$(readlink -f ../src)
+export S2N_SRC_PATH=$(readlink -f ../src)
 
 # EOF
