@@ -43,13 +43,13 @@ def get_configuration(options):
     assert cloned_location is not None
 
     # What's the path to our repo?
-    repository_path = os.path.abspath(os.path.join(cloned_location, "src", "s2n"))
+    repository_path = os.path.abspath(os.path.join(cloned_location, "src"))
 
     # What's the path to our Manage root folder?
     manage_vcm_path = os.path.abspath(os.path.join(cloned_location, "vcast", "s2n.vcm"))
 
     # Set the environment variable needed for the environments to build
-    os.environ["S2N_SRC_PATH"] = os.path.dirname(repository_path)
+    os.environ["S2N_SRC_PATH"] = repository_path
 
     configuration = {
         "repository_path": repository_path,
